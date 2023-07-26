@@ -1,5 +1,7 @@
-nosql-challenge
-Eat Safe, Love The NoSQL_setup_starter.ipynb sets up and updates the database. The NoSQL_analysis.ipynb queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the establishments.json file was imported.
+nosql-challenge: 
+
+Eat Safe, Love 
+The NoSQL_setup_starter.ipynb sets up and updates the database. The NoSQL_analysis.ipynb queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the establishments.json file was imported.
 
 Set Up and Update Database: Insert the new halal restaurant opened in Greenwich to the Database.
 
