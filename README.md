@@ -2,7 +2,7 @@
 Eat Safe, Love
 The NoSQL_setup_starter.ipynb sets up and updates the database. The NoSQL_analysis.ipynb queries relevant information for analyses and converts results into Pandas DataFrame. The data provided in the establishments.json file was imported. 
 
-Set Up and Update Database
+Set Up and Update Database:
 Insert the new halal restaurant opened in Greenwich to the Database.
 
 establishments.insert_one(new_restaurant)
@@ -25,7 +25,7 @@ establishments.update_many({}, [{'$set': {'geocode.longitude': {'$toDouble': '$g
                                  }
                                 ]
                            )
-Exploratory Analysis
+Exploratory Analysis:
 Which establishments have a hygiene score equal to 20?
 
 There are 41 establishments with a hygiene score of 20 from the uk_food dataset.
